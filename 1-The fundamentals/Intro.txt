@@ -1,0 +1,18 @@
+Why javascript ?
+
+1- Js is a clientside language ,it is the LANGUAGE of the borwser
+2- You can build very interactive UI with JS
+3- This fundamental will cover :
+
+-Variable and Data types
+-Arrays
+-Object Literals 
+-Methods for strings ,arrays, objects, etc
+-Loops (for/ while/ for...of /forEach /map)
+-Conditionals(if/ ternary&switch)
+-Functions (normal & arrow)
+-OOP(prototypes and class)
+-DOM Selection
+-DOM manipulation
+-Events
+-Basics FOrm Validation

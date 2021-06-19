@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM manip & events
+    </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="header">
+        <div><h1>Item Lister</h1></div>
+        <div id="searchBar">
+            <input type="text" id="filter"
+            placeholder="Search items.">
+        </div>
+    </header>
+    <main id="main" class="grid">
+        <form action="" id="myForm">
+            <h1 id="typed"></h1>
+            <h2>Add Items</h2>
+            <input type="text" name="" id="txtInput">
+            <select>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+            <input type="button" name ="submit" value="Submit" class="btn"
+            id = "subButton">
+        </form>
+        <section class="displayed grid">
+            <h3>Items</h3>
+            <ul class="itemContainer" id="itCont">
+                <li class="item">Item 1 <button class ="delButton">X</button></li>
+                <li class="item">Item 2 <button class ="delButton">X</button></li>
+                <li class="item">Item 3 <button class ="delButton">X</button></li>
+                <li class="item">Item 4 <button class ="delButton">X</button></li>
+            </ul>
+            <br>
+            <div id="output"></div>
+            <button class="btn" id="button">Click Here</button>
+            <!-- <div class ="classTest" id ="box" 
+            style = "display: hidden"> -->
+            </div>
+        </section>
+    </main>
+
+
+<script src="main4.js"></script>
+</body>
+</html>

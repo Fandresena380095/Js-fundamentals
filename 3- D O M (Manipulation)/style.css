@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#header {
+    background-color: yellowgreen;
+    padding: 5px;
+    text-align: center;
+    display : grid;    
+    grid-template-columns: 2fr;
+}
+
+header div {
+    grid-template-columns: 1/-1;
+}
+
+
+main {
+    text-align: center;
+    border: 0.05px solid rgb(105, 100, 100);
+    box-shadow: 2px 2px 2px rgb(206, 149, 149);
+    max-width: 400px;
+    padding: 20px auto;
+    margin: 5px auto;
+}
+
+.displayed {
+    display: grid;
+    grid-template-columns: 2fr;
+    margin : 2px auto;
+    min-width: 300px;
+    text-align:left;
+}
+
+
+.grid {
+    display:grid;
+    padding: 30px auto;
+    grid-template-columns: 2fr;
+    justify-content: center;
+    justify-items: center;
+    margin: 5px auto 20px auto;
+    
+}
+
+.itemContainer {
+    width: 300px;
+    padding: 2px 0;
+}
+
+
+
+.item {
+    display: flex;
+    align-items: flex-end;
+    min-width: 300px;
+    border: 1px solid #AAA;
+    list-style: none;
+    padding: 11px ;
+    margin: 0 auto;
+    text-align: left;
+}
+
+
+.btn, #txtInput {
+    padding: 5px;
+}
+
+.btn {
+    background-color: rgba(0,0,0,.005);
+    box-shadow : 2px 2px 5px cyan
+}
+
+.btn:hover {
+    background-color:cyan;
+    box-shadow: 5px 5px 10px rgb(5, 255, 5);
+}
+
+.classTest {
+    margin-top: 20px;
+    width : 400px;
+    height : 200px ;
+    background: #EEE;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#searchBar {
+    padding:4%;
+}
+
+li {
+    display: flex;
+    justify-content:space-between;
+}
+
+.delButton {
+    background: rgb(245, 50, 50);
+    color : #FFF;
+}
+.delButton:hover {
+    background: rgb(255, 126, 126);
+    color : #FFF;
+}
+
+@media (min-width:500px){
+    body {
+        color: red;
+    }
+
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    
+
+    
+}

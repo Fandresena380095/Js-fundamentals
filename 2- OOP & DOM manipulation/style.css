@@ -1,0 +1,80 @@
+body {
+    margin : 0;
+    font-size: 1.2em;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.he {
+    background-color: rgb(240, 219, 240);
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20% 50%;
+    background-color: rgb(130, 170, 202);
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    padding: 100px;
+    background-color: rgba(0,0,0,.05);
+    display: grid;
+    grid-template-columns:1fr ;
+    grid-gap: 10px;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.btn {
+    padding: 2px 50px;
+    text-align: center;
+    grid-column: 1/-1;
+    margin : 7px;
+    color: cyan;
+    background-color: rgba(0,0,0,.05);
+    border: 1px solid cyan;
+    box-shadow: 2px 2px 5px cyan;
+}
+
+.btn:hover {
+    color: rgb(14, 35, 48);
+    background-color: rgb(16, 219, 219);
+    box-shadow: 5px 5px 5px cyan;
+}
+
+.in {
+    grid-column: 1/-1;
+}
+
+ul li{
+    display: inline;
+    padding: 2px;
+    border: 1px solid cyan;
+    box-shadow:3px 3px 4px rgb(0, 255, 98);
+}
+
+
+.superclass {
+    color:rgb(0, 255, 76);
+    background-color: black;
+}
+
+
+.error {
+    background-color: red;
+    color: white;
+}
+
+.succes {
+    background-color: rgb(14, 255, 14);
+    color: black;
+}
